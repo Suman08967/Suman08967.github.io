@@ -53,7 +53,8 @@ body {
 }
 
 input {
-  width: 100%;
+  hight: height
+  width: width;
   padding: 12px;
   margin-bottom: width;
   border: 1px solid #ccc;
