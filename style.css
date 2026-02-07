@@ -56,7 +56,7 @@ input {
   hight: height
   width: width;
   padding: 12px;
-  margin-bottom: width;
+  margin-bottom: 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
 }
