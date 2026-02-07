@@ -1,87 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Online Service Center</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f6f8;
-            color: #333;
-        }
-        header {
-            background: #0d6efd;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-        }
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-        }
-        .box {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .contact {
-            background: #fff;
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-        }
-        .btn {
-            background: #25d366;
-            color: white;
-            padding: 12px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 10px;
-            font-size: 16px;
-        }
-        footer {
-            background: #222;
-            color: #aaa;
-            text-align: center;
-            padding: 10px;
-            font-size: 14px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Suman Online Service | Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Online Service Center</h1>
-    <p>PAN Card | BBPS | Loan | LIC | Recharge</p>
-</header>
+<div class="container">
 
-<section>
-    <h2>Our Services</h2>
-    <div class="services">
-        <div class="box">PAN Card Apply / Correction</div>
-        <div class="box">BBPS Bill Payment</div>
-        <div class="box">Loan EMI Payment</div>
-        <div class="box">LIC Premium Payment</div>
-        <div class="box">Mobile & DTH Recharge</div>
+  <!-- LEFT PANEL -->
+  <div class="left">
+    <h1>Welcome To</h1>
+    <h2>Suman Online Service</h2>
+
+    <div class="logo-circle">
+      <span>CSC</span>
     </div>
-</section>
 
-<section class="contact">
-    <h2>Contact Us</h2>
-    <p>Fast & Trusted Online Services</p>
-    <a class="btn" href="https://wa.me/91XXXXXXXXXX">Contact on WhatsApp</a>
-</section>
+    <h3>Gateway to Online Services</h3>
+    <p>
+      Suman Online Service provides PAN Card, BBPS Bill Payment,
+      Loan EMI, LIC Premium and Recharge services.
+    </p>
+  </div>
+
+  <!-- RIGHT PANEL -->
+  <div class="right">
+    <h2>Log in to your account</h2>
+
+    <form>
+      <div class="input-box">
+        <input type="text" placeholder="Username or Email">
+      </div>
+
+      <div class="input-box">
+        <input type="password" placeholder="Password">
+      </div>
+
+      <div class="captcha-row">
+        <div class="captcha-box">2 5 1 9 9 9</div>
+        <input type="text" placeholder="Enter Captcha">
+      </div>
+
+      <a href="#" class="forgot">Forgot password?</a>
+
+      <button type="button">Log In</button>
+    </form>
+  </div>
+
+</div>
 
 <footer>
-    © 2026 Online Service Center. All Rights Reserved.
+  © 2026 Suman Online Service. All rights reserved.
 </footer>
 
 </body>
